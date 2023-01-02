@@ -1,0 +1,49 @@
+use mrtssales;
+-- INSERT INTO `sales_2020` VALUES(21,'Mens clothing stores',599,615,302,86,155,303,405,379,401,1,2,604,NULL);
+-- CREATE TABLE sales_2020 (sales_2020_id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT, date DATE NOT NULL,
+-- 	RetailAndFoodServicesSalesTotal int,
+-- 	RetailSalesAndFoodServicesExclMotorVehicleAndParts int,
+-- 	RetailSalesAndFoodServicesExclGasolineStations int,
+--     RetailSalesAndFoodServicesExclMotorVehicleAndPartsAndGasolineStations int,
+--     RetailSalesTotal int,
+--     RetailSalesTotal(Excl.MotorVehicleAndPartsDealers) int,
+--     Gafo(1) int,
+--     MotorVehicleAndPartsDealers', 'AutomobileAndOtherMotorVehicleDealers',
+--     AutomobileDealers', 'NewCarDealers', 'UsedCarDealers',
+--     AutomotivePartsAcc.AndTireStores',
+--     FurnitureHomeFurnElectronicsAndApplianceStores',
+--     FurnitureAndHomeFurnishingsStores', 'FurnitureStores',
+--     HomeFurnishingsStores', 'FloorCoveringStores',
+--     AllOtherHomeFurnishingsStores', 'ElectronicsAndApplianceStores',
+--     HouseholdApplianceStores', 'ElectronicsStores',
+--     BuildingMat.AndGardenEquip.AndSuppliesDealers',
+--     BuildingMat.AndSuppliesDealers', 'PaintAndWallpaperStores',
+--     HardwareStores', 'FoodAndBeverageStores', 'GroceryStores',
+--     SupermarketsAndOtherGrocery(ExceptConvenience)Stores',
+--     BeerWineAndLiquorStores', 'HealthAndPersonalCareStores',
+--     PharmaciesAndDrugStores', 'GasolineStations',
+--     ClothingAndClothingAccess.Stores', 'ClothingStores',
+--     MensClothingStores', 'WomensClothingStores', 'FamilyClothingStores',
+--     OtherClothingStores', 'ShoeStores', 'JewelryStores',
+--     SportingGoodsHobbyMusicalInstrumentAndBookStores',
+--     SportingGoodsStores', 'HobbyToyAndGameStores', 'BookStores',
+--     GeneralMerchandiseStores', 'DepartmentStores',
+--     DepartmentStores(Excl.DiscountDepartmentStores)',
+--     DiscountDept.Stores
+--     OtherGeneralMerchandiseStores',
+--     WarehouseClubsAndSuperstores
+--     AllOtherGen.MerchandiseStores',
+--     MiscellaneousStoreRetailers
+--     OfficeSuppliesStationeryAndGiftStores',
+--     OfficeSuppliesAndStationeryStores
+--     GiftNoveltyAndSouvenirStores',
+--     UsedMerchandiseStores
+--     NonstoreRetailers',
+--     ElectronicShoppingAndMail-OrderHouses
+--     FuelDealers',
+--     FoodServicesAndDrinkingPlaces
+--     DrinkingPlaces',
+--     RestaurantsAndOtherEatingPlaces
+--     FullServiceRestaurants',
+--     LimitedServiceEatingPlaces
+select * from sales;
